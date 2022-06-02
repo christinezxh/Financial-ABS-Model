@@ -73,7 +73,11 @@ The **DIRR** is quoted in basis points (BPS). One basis point is 1/100 of a perc
 (which is rated Ca in the below table). You may need to convert your DIRR to basis points to match.
 
 Here's the rating table I used, but there might be other reference table too, depends on what you are looking for.
-
+```python
+ abs_rating = {0.06: 'Aaa', 0.67: 'Aa1', 1.3: 'Aa2', 2.7: 'Aa3', 5.2: 'A1', 8.9: 'A2', 13: 'A3', 19: 'Baa1',
+                      27: 'Baa2', 46: 'Baa3', 72: 'Ba1', 106: 'Ba2', 143: 'Ba3', 183: 'B1', 231: 'B2', 311: 'B3',
+                      2500: 'Caa', 10000: 'Ca'}
+```
 
 
 **TWO RISKS INVOLVED:**
